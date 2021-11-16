@@ -13,7 +13,7 @@ public class Main {
         Country korea = new Country("Korea", 'K');
         Country france = new Country("France", 'F');
 
-        List<Country> countries = new ArrayList<Country>(5);
+        List<Country> countries = new ArrayList<Country>();
         countries.add(poland);
         countries.add(germany);
         countries.add(china);
