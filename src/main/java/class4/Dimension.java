@@ -1,9 +1,9 @@
 package class4;
 
 public class Dimension {
-    private final int high;
-    private final int width;
-    private final int trunkCapacity;
+    final int high;
+    final int width;
+    final int trunkCapacity;
 
     public Dimension(int high, int width, int trunkCapacity) {
         this.high = high;

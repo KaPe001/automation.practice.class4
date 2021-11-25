@@ -5,14 +5,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Car {
-    private final Producent producent;
-    private final String model;
-    private final String type;
-    private final boolean isAutomaticGear;
-    private final Market market;
-    private final String name;
-    private final String segment;
-    private List<Dimension> dimensions = new ArrayList<>();
+    final Producent producent;
+    final String model;
+    final String type;
+    final boolean isAutomaticGear;
+    final Market market;
+    final String name;
+    final String segment;
+    List<Dimension> dimensions = new ArrayList<>();
 
     public Producent getProducent() {
         return producent;

@@ -2,8 +2,8 @@ package class4;
 
 public class Country {
 
-    private final String countryName;
-    private final char countrySign;
+    final String countryName;
+    final char countrySign;
 
     public Country(String countryName, char countrySign) {
         this.countryName = countryName;

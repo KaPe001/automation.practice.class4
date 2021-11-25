@@ -1,8 +1,8 @@
 package class4;
 
 public class Producent {
-    private final String model;
-    private final String type;
+    final String model;
+    final String type;
 
     public String getModel() {
         return model;
